@@ -52,8 +52,8 @@
     <!-- Fin del Navbar -->
 
     <!-- Inicio del Header -->
-    <header id="Inicio" id="Hero-Section">
-        <div>
+    <header id="Hero-Section">
+        <div id="Inicio">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -78,11 +78,10 @@
         </div>
     </header>
     <!-- Fin del Header -->
-
     <!-- Inicio sección 1 ¿Quienes somos?  -->
+    <section class="container d-none d-sm-block ">
+        <h2 id="Quienes-Somos" class="container mt-3 text-center ">¿Quienes Somos?</h2>
 
-    <h2 id="Quienes-Somos" class="container mt-3 text-center ">¿Quienes Somos?</h2>
-    <div class="container ">
         <hr class="calipso">
         <div class="row">
             <div class="col-sm">
@@ -139,12 +138,14 @@
                 </div>
             </div>
         </div>
-        <!-- fin sección 2 ¿Quienes somos -->
+    </section>
+    <!-- fin sección 2 ¿Quienes somos -->
 
-        <!-- Inicio sección 2 Destacados -->
+    <!-- Inicio sección 2 Destacados -->
+    <section>
         <h2 id="Destacados" class="container mt-3 text-center">Destacados</h2>
         <hr class="calipso">
-        <div class="conteiner-fluid">
+        <div class="container-fluid  w-100">
             <div class="row">
                 <div class="col">
                     <div class="card calipso h-100">
@@ -159,15 +160,13 @@
                 </div>
                 <div class="col">
                     <div class="card calipso h-100">
-
-                        <img class="card-img-top foto" src="/assets/img/card2.jpg" alt="Card image cap">
-
+                        <img class="card-img-top" src="/assets/img/card2.jpg" alt="Card image cap">
                         <div class="card-body text-white">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
-                                officiis laborum deserunt totam reprehenderit sed voluptatem eos, corrupti, asperiores
-                                delectus dolores saepe ex aut quasi! Nam quo quidem cumque veniam.
-                            </p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Exercitationem, dolorem necessitatibus repellat soluta beatae excepturi incidunt, odio
+                                mollitia accusantium similique quo, recusandae quidem eum. Voluptate consequatur
+                                repudiandae assumenda adipisci similique.</p>
                         </div>
                     </div>
                 </div>
@@ -196,8 +195,11 @@
                 </div>
             </div>
         </div>
-        <!-- Fin sección 2 Destacados -->
-        <!-- inicio sección 3 Contacto -->
+    </section>
+    <!-- Fin sección 2 Destacados -->
+    <!-- inicio sección 3 Contacto -->
+    <!-- <link rel="stylesheet" href="https://dmu1beps3wb.typeform.com/to/fgaDLkpr"> -->
+    <section>
         <h2 id="Contacto" class="container mt-3 text-center">Contacto</h2>
         <hr class="calipso">
         <div class="container">
@@ -206,50 +208,44 @@
             </div>
             <script src="//embed.typeform.com/next/embed.js"></script>
         </div>
-        <!-- fin sección 3 Contacto -->
+    </section>
+    <!-- fin sección 3 Contacto -->
+    <!-- Inicio Footer -->
+    <footer class=" text-center calipso">
+            <div class="row container ">
+                <div class="col-12 col-sm-6 py-3">
+                        <h5 class="text-white font-weight-bold  my-1">VIAJES CHILE</h5>
+                </div>
+                <div class="col-12 col-sm-6 mt-2 mt-sm-0s">
+                    <a class="btn btn-outline-light  m-1" href="https://github.com" target="_blank" role="button"><i
+                            class="fab fa-github"></i></a>
 
-        <!-- Inicio Footer -->
+                    <a class="btn btn-outline-light  m-1" href="www.linkedin.com" target="_blank" role="button"><i
+                            class="fab fa-linkedin-in"></i></a>
 
-        <footer class="calipso">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 my-auto">
-                        <div class="flex-center my-auto ">
-                            <h5 class="text-white text-center font-weight-bold  my-1">VIAJES CHILE</h5>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 my-auto">
-                        <div class="flex-center my-auto">
-                            <a class="btn btn-outline-light  m-1" href="https://github.com"  target="_blank"
-                                role="button"><i class="fab fa-github"></i></a>
+                    <a class="btn btn-outline-light  m-1" href="https://twitter.com1" target="_blank" role="button"><i
+                            class="fab fa-twitter"></i></a>
 
-                            <a class="btn btn-outline-light  m-1" href="www.linkedin.com" target="_blank"
-                                role="button"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light  m-1" href="https://www.facebook.com" target="_blank"
+                        role="button"><i class="fab fa-facebook-f"></i></a>
 
-                            <a class="btn btn-outline-light  m-1" href="https://twitter.com1" target="_blank" role="button"><i
-                                    class="fab fa-twitter"></i></a>
-
-                            <a class="btn btn-outline-light  m-1" href="https://www.facebook.com" target="_blank"
-                                role="button"><i class="fab fa-facebook-f"></i></a>
-                        </div>
-                    </div>
                 </div>
             </div>
-        </footer>
-        <!-- Fin Footer -->
+    </footer>
+    <!-- Fin Footer -->
 
-        <!-- CDN Jquery -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-        <!-- CDN Popper -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-        <!-- CDN JS Bootstrap -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
+    <!-- CDN Jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <!-- CDN Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <!-- CDN JS Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
